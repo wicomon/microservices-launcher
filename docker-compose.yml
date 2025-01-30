@@ -18,7 +18,7 @@ services:
       - PORT=3000
       - NATS_SERVERS=nats://nats-server:4222
 
-  product-ms:
+  products-ms:
     build: ./products-ms
     ports:
       - 3001:3001
