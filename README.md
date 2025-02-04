@@ -1,6 +1,6 @@
 ## DEV
 
-1. Clonar repo
-2. Crear un .env basado en el template
-3. Ejecutar el comando `git submodule update --init --recursive` para reconstruir los submodulos
-4. Ejecutar el comando `docker compose up --build`
+1. Clone repo
+2. Create .env file based on template
+3. Run `git submodule update --init --recursive` to rebuild the submodules
+4. Run `docker compose up --build`
