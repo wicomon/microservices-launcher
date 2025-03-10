@@ -15,3 +15,7 @@
 ```
 docker compose -f docker-compose.prod.yml build
 ```
+
+
+
+kubectl create secret docker-registry gcr-json-key --docker-server=southamerica-east1-docker.pkg.dev --docker-username=_json_key --docker-password="$(cat '/Users/wicomon/Downloads/microservicios-450921-d696868abe5b.json')" --docker-email=wcv.dev94@gmail.com
